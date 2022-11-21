@@ -1,0 +1,46 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.screen {
+  position: relative;
+  min-height: 100vh;
+}
+
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../images/logTheme.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.form {
+  background-color: black;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.body {
+  position: relative;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.body div {
+  margin: 5px;
+}

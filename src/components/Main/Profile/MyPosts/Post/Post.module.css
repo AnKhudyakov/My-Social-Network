@@ -1,0 +1,12 @@
+.post {
+  display: flex;
+  margin: 10px;
+}
+
+.id {
+  margin-right: 10px;
+}
+
+.message {
+  margin-right: 10px;
+}

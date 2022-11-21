@@ -1,0 +1,5 @@
+.main {
+  grid-area: m;
+  /* margin-left: 5px; */
+  background-color: #eee;
+}

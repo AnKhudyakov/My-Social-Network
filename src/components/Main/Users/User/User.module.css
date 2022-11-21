@@ -1,0 +1,30 @@
+.user {
+  display: grid;
+  grid-template-areas: "a d" "b d";
+  margin-bottom: 20px;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 30fr 1fr;
+  column-gap: 10px;
+}
+.left {
+  width: 100%;
+}
+.avatar {
+  grid-area: a;
+  min-width: 70px;
+}
+
+.btn {
+  grid-area: b;
+  /*text-align: center;*/
+}
+
+.discription {
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 10px;
+}

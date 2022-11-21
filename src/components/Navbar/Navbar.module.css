@@ -1,0 +1,25 @@
+.nav {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100px;
+  height: 100vh;
+  grid-area: n;
+  background-color: #aaa;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+}
+
+.links a {
+  color: #fff;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(127, 214, 255);
+}

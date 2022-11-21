@@ -1,0 +1,16 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.avatar img {
+  width: 150px;
+}
+
+.discription {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.contacts {
+  padding-left: 20px;
+}

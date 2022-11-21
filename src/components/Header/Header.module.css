@@ -1,0 +1,25 @@
+.header {
+  grid-area: h;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  height: 80px;
+  color: #999;
+}
+
+.loginBlock {
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+.loginBlock a {
+  margin: 10px;
+  color: #eee;
+  text-decoration: none;
+}
+
+.logout {
+  float: right;
+}

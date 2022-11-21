@@ -1,0 +1,17 @@
+.links {
+  margin: 5px;
+}
+
+.links span {
+  margin: 3px;
+  text-decoration: none;
+}
+
+.links span:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgb(127, 214, 255);
+  font-weight: bold;
+}
