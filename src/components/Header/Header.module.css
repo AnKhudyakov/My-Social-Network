@@ -1,6 +1,12 @@
 .header {
   grid-area: h;
-  background-color: #333;
+  background: rgb(42, 42, 42);
+  background: linear-gradient(
+  90deg,
+  rgb(173, 173, 173) 0%,
+  rgb(97, 97, 97) 50%,
+  rgb(35, 35, 35) 100%
+);
   width: 100%;
   position: fixed;
   top: 0px;
